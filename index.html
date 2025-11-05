@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Fremont's premier chiropractic solution for pain relief. Experience immediate comfort and long-term relief with flexible scheduling and expert care.">
+    <meta name="keywords" content="chiropractic, pain relief, Fremont, acute pain management, chronic condition support">
+    <meta name="author" content="Lit Chiropractic">
+    <title>Pain Relief Now: Fremont's Chiropractic Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+        }
+        
+        .button-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .button-hover:hover {
+            transform: scale(1.05);
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .hero-pattern {
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(96, 165, 250, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(167, 139, 250, 0.1) 0%, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-spine text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-white hidden sm:inline">Lit Chiropractic</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Services</a>
+                <a href="#benefits" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">FAQ</a>
+                <a href="https://litchiropractic.janeapp.com/" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-lg font-semibold button-hover">
+                    Book Now
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button p-2 rounded-lg hover:bg-gray-800 transition-colors duration-300">
+                <i class="fas fa-bars text-white text-xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-gray-800 border-b border-gray-700 md:hidden">
+                <div class="flex flex-col space-y-4 px-4 py-4">
+                    <a href="#features" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium py-2">Services</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium py-2">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium py-2">FAQ</a>
+                    <a href="https://litchiropractic.janeapp.com/" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2 rounded-lg font-semibold button-hover text-center">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
+                        Pain Relief Now: <span class="gradient-text">Fremont's Chiropractic Solution</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+                        Say goodbye to discomfort and hello to a pain-free life with Lit Chiropractic. Our expert team combines cutting-edge techniques with personalized care to help you achieve lasting wellness.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="https://litchiropractic.janeapp.com/" class="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-lg font-bold text-lg button-hover text-center">
+                            Schedule Your Appointment
+                        </a>
+                        <a href="#features" class="border-2 border-blue-500 text-blue-400 px-8 py-4 rounded-lg font-bold text-lg button-hover hover:bg-blue-500 hover:bg-opacity-10 text-center transition-all duration-300">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur-3xl opacity-30"></div>
+                        <div class="relative bg-gray-800 rounded-2xl p-8 border border-gray-700">
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4 p-4 bg-gray-700 bg-opacity-50 rounded-lg">
+                                    <i class="fas fa-check-circle text-green-400 text-2xl"></i>
+                                    <span class="text-gray-100">Expert Chiropractic Care</span>
+                                </div>
+                                <div class="flex items-center space-x-4 p-4 bg-gray-700 bg-opacity-50 rounded-lg">
+                                    <i class="fas fa-clock text-blue-400 text-2xl"></i>
+                                    <span class="text-gray-100">Flexible Scheduling</span>
+                                </div>
+                                <div class="flex items-center space-x-4 p-4 bg-gray-700 bg-opacity-50 rounded-lg">
+                                    <i class="fas fa-heart text-red-400 text-2xl"></i>
+                                    <span class="text-gray-100">Personalized Treatment Plans</span>
+                                </div>
+                                <div class="flex items-center space-x-4 p-4 bg-gray-700 bg-opacity-50 rounded-lg">
+                                    <i class="fas fa-star text-yellow-400 text-2xl"></i>
+                                    <span class="text-gray-100">Proven Results</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-800 bg-opacity-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
+                    Our Specialized Services
+                </h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                    Comprehensive chiropractic solutions designed to address your specific health needs and restore your quality of life.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Acute Pain Management -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-blue-500 transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-bolt text-white text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Acute Pain Management</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Experience rapid relief from sudden injuries and acute conditions. Our specialized acute pain management techniques target the root cause of your discomfort, providing immediate relief while promoting natural healing. Whether you've suffered a sports injury, car accident, or workplace incident, we have the expertise to get you back on your feet quickly.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Rapid pain reduction techniques</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Injury rehabilitation programs</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Advanced diagnostic imaging</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Chronic Condition Support -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-purple-500 transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-shield-alt text-white text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Chronic Condition Support</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        Living with chronic pain doesn't have to be your reality. Our comprehensive chronic condition support programs are designed for long-term management and progressive improvement. We develop customized treatment plans that address the underlying causes of your chronic pain, reducing symptoms and improving your overall quality of life over time.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Long-term management strategies</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Preventative care plans</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Lifestyle optimization guidance</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Flexible Scheduling -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-pink-500 transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-calendar-check text-white text-2xl"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Flexible Scheduling</h3>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        We understand that life is busy. That's why we offer flexible scheduling options that work around your lifestyle. With early morning, evening, and weekend appointments available, you can prioritize your health without sacrificing your commitments. Our convenient booking system makes scheduling your appointment quick and easy.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Early morning & evening hours</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Weekend availability</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-check text-green-400 mt-1"></i>
+                            <span class="text-gray-300">Online booking system</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
+                    Why Choose Lit Chiropractic?
+                </h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                    Transform your health with our evidence-based approach to chiropractic care and wellness.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Immediate Comfort -->
+                <div class="card-hover group">
+                    <div class="bg-gray-800 border border-gray-700 rounded-xl p-8 h-full hover:border-blue-400 transition-all duration-300">
+                        <div class="flex items-start space-x-4 mb-6">
+                            <div class="w-12 h-12 bg-blue-500 bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-lightning-bolt text-blue-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white mb-2">Immediate Comfort</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            Feel the difference from your first visit. Our advanced chiropractic techniques provide immediate pain relief and improved mobility. Many patients report significant comfort improvements within the first few sessions, allowing them to return to their daily activities with confidence and ease.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-400">
+                            <li>✓ Same-day pain reduction</li>
+                            <li>✓ Improved range of motion</li>
+                            <li>✓ Enhanced mobility</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Long-Term Relief -->
+                <div class="card-hover group">
+                    <div class="bg-gray-800 border border-gray-700 rounded-xl p-8 h-full hover:border-purple-400 transition-all duration-300">
+                        <div class="flex items-start space-x-4 mb-6">
+                            <div class="w-12 h-12 bg-purple-500 bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-infinity text-purple-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white mb-2">Long-Term Relief</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            Sustainable wellness is our goal. Through comprehensive treatment plans and ongoing care, we help you achieve lasting relief that extends far beyond your appointments. Our holistic approach addresses the root causes of your pain, ensuring you experience sustained improvement and reduced relapse rates.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-400">
+                            <li>✓ Sustainable pain management</li>
+                            <li>✓ Reduced symptom recurrence</li>
+                            <li>✓ Improved overall wellness</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Stress Reduction -->
+                <div class="card-hover group">
+                    <div class="bg-gray-800 border border-gray-700 rounded-xl p-8 h-full hover:border-pink-400 transition-all duration-300">
+                        <div class="flex items-start space-x-4 mb-6">
+                            <div class="w-12 h-12 bg-pink-500 bg-opacity-20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-spa text-pink-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white mb-2">Stress Reduction</h3>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 leading-relaxed mb-4">
+                            Chronic pain and stress are deeply connected. Our comprehensive approach addresses both physical pain and the stress that accompanies it. Patients often experience improved sleep quality, reduced anxiety, and enhanced mental clarity as their physical health improves, creating a positive cascade of wellness benefits.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-400">
+                            <li>✓ Reduced muscle tension</li>
+                            <li>✓ Better sleep quality</li>
+                            <li>✓ Lower stress levels</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-800 bg-opacity-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
+                    About Lit Chiropractic
+                </h2>
+            </div>
+            
+            <div class="space-y-8">
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    Lit Chiropractic was founded with a singular mission: to bring evidence-based, compassionate chiropractic care to the Fremont community. Our journey began when our founder recognized the profound impact that quality chiropractic treatment could have on people's lives. Starting with a small practice and a commitment to excellence, we have grown into a trusted healthcare provider serving thousands of patients. Over the years, we have invested in the latest technology, continuing education for our team, and a patient-first approach that has made us the go-to chiropractic clinic in the area. Our clinic has become known not just for treating pain, but for transforming lives and empowering people to take control of their health.
+                </p>
+                
+                <p class="text-lg text-gray-300 leading-relaxed">
+                    At the heart of Lit Chiropractic lies a commitment to holistic wellness and patient empowerment. We believe that true health extends beyond the absence of pain—it encompasses physical vitality, mental clarity, and emotional well-being. Our core values of integrity, compassion, and excellence guide every decision we make and every interaction we have with our patients. We are dedicated to creating a welcoming environment where patients feel heard, respected, and cared for. By combining traditional chiropractic wisdom with modern scientific research, we deliver treatment plans that are both effective and personalized. Our team is passionate about helping you achieve your health goals and maintaining the results long after your treatment is complete.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
+                    What Our Patients Say
+                </h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                    Real stories from real patients who have transformed their lives through our chiropractic care.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-blue-500 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "I came to Lit Chiropractic after years of chronic lower back pain that was affecting my work and family life. Within three weeks of treatment, I experienced a dramatic improvement. The team is professional, caring, and truly invested in your recovery. I've been pain-free for six months now and I couldn't be happier. Highly recommend!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">Sarah Mitchell</p>
+                        <p class="text-sm text-gray-400">Marketing Manager, Tech Startup</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-purple-500 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "After a car accident, I thought my neck and shoulder pain would be permanent. The doctors at Lit Chiropractic created a personalized treatment plan that addressed all my concerns. Their flexible scheduling made it easy to attend appointments while recovering. I'm back to my normal activities and feeling better than ever!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">James Rodriguez</p>
+                        <p class="text-sm text-gray-400">Construction Supervisor</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-pink-500 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "I was skeptical about chiropractic care until I visited Lit Chiropractic. The staff took time to explain everything and never pushed unnecessary treatments. My migraines have decreased significantly, and my posture has improved dramatically. The whole experience has been professional and results-driven. Thank you!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">Emily Chen</p>
+                        <p class="text-sm text-gray-400">Graphic Designer</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-gray-800 border border-gray-700 rounded-xl p-8 hover:border-green-500 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex space-x-1">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "As an athlete, I rely on my body to perform at its best. Lit Chiropractic has been instrumental in maintaining my spinal health and preventing injuries. The team understands athletic needs and has helped me optimize my performance. I recommend them to all my teammates!"
+                    </p>
+                    <div class="border-t border-gray-700 pt-4">
+                        <p class="font-semibold text-white">Michael Thompson</p>
+                        <p class="text-sm text-gray-400">Professional Soccer Player</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-800 bg-opacity-50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 tracking-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+                    Find answers to common questions about our services and chiropractic care.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300">
+                    <div class="faq-question cursor-pointer p-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-white pr-4">What should I expect during my first visit?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-blue-400 flex-shrink-0"></i>
+                    </div>
+                    <div class="faq-answer hidden px-6 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Your first visit begins with a comprehensive consultation where we'll discuss your health history, current symptoms, and treatment goals. We'll perform a detailed physical examination and may take X-rays or other diagnostic images if needed. This allows us to understand your condition fully and create a personalized treatment plan tailored to your specific needs. The entire first visit typically takes 45-60 minutes, and you'll leave with a clear understanding of your condition and the recommended treatment approach.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-purple-500 transition-all duration-300">
+                    <div class="faq-question cursor-pointer p-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-white pr-4">How many sessions will I need?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-purple-400 flex-shrink-0"></i>
+                    </div>
+                    <div class="faq-answer hidden px-6 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            The number of sessions depends on your specific condition, severity, and how your body responds to treatment. Acute conditions might require 4-8 visits over a few weeks, while chronic conditions may require ongoing care over several months. During your initial consultation, we'll provide a recommended treatment plan with an estimated timeline. We believe in transparency and will regularly reassess your progress to adjust the plan as needed. Our goal is always to achieve your health objectives as efficiently as possible.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-pink-500 transition-all duration-300">
+                    <div class="faq-question cursor-pointer p-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-white pr-4">Does insurance cover chiropractic care?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-pink-400 flex-shrink-0"></i>
+                    </div>
+                    <div class="faq-answer hidden px-6 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Many insurance plans do cover chiropractic care. We accept most major insurance providers and are happy to verify your coverage before your first appointment. We'll work with your insurance company to maximize your benefits and minimize out-of-pocket costs. For patients without insurance, we offer flexible payment plans and competitive pricing. Contact us at litchiropractic1@gmail.com or call our office to discuss your specific insurance situation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-green-500 transition-all duration-300">
+                    <div class="faq-question cursor-pointer p-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-white pr-4">Is chiropractic care safe?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-green-400 flex-shrink-0"></i>
+                    </div>
+                    <div class="faq-answer hidden px-6 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Yes, chiropractic care is safe when performed by licensed professionals. Our chiropractors are fully licensed and use evidence-based techniques with a proven safety record. During your consultation, we'll discuss your complete medical history to identify any contraindications. We use the latest technology and follow strict safety protocols. Serious complications are rare, and most patients experience only mild, temporary soreness after treatment, similar to exercise. We're committed to your safety and will always discuss any risks and benefits before proceeding with treatment.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-gray-800 border border-gray-700 rounded-xl overflow-hidden hover:border-yellow-500 transition-all duration-300">
+                    <div class="faq-question cursor-pointer p-6 flex items-center justify-between hover:bg-gray-700 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-white pr-4">Can I book an appointment online?</h3>
+                        <i class="fas fa-chevron-down faq-icon text-yellow-400 flex-shrink-0"></i>
+                    </div>
+                    <div class="faq-answer hidden px-6 pb-6 border-t border-gray-700">
+                        <p class="text-gray-300 leading-relaxed">
+                            Absolutely! We offer convenient online booking through our patient portal at litchiropractic.janeapp.com. You can view available appointment times and schedule at your convenience, even outside of office hours. If you prefer to book by phone or email, you can reach us at litchiropractic1@gmail.com. Our flexible scheduling includes early morning, evening, and weekend appointments to accommodate your busy lifestyle. We also offer new patient consultations to discuss your needs before scheduling your first treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 md:py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=600&fit=crop" alt="Modern healthcare facility" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gray-900 bg-opacity-75"></div>
+        </div>
+        
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight">
+                Ready to Transform Your Health?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed max-w-2xl mx-auto">
+                Don't let pain hold you back any longer. Schedule your appointment with Lit Chiropractic today and take the first step toward a healthier, pain-free life.
+            </p>
+            <a href="https://litchiropractic.janeapp.com/" class="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-lg font-bold text-lg button-hover">
+                Book Your Appointment Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-spine text-white"></i>
+                        </div>
+                        <span class="text-lg font-bold text-white">Lit Chiropractic</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Providing exceptional chiropractic care to Fremont and surrounding communities since our founding.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Services</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-envelope text-blue-400 mt-1"></i>
+                            <a href="mailto:litchiropractic1@gmail.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm break-all">litchiropractic1@gmail.com</a>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fas fa-globe text-blue-400 mt-1"></i>
+                            <a href="https://litchiropractic.janeapp.com/" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Book Online</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="border-t border-gray-700 pt-8 mb-8">
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Facebook">
+                        <i class="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Twitter">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Instagram">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center border-t border-gray-700 pt-8">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2025 Lit Chiropractic. All rights reserved. | Fremont, CA
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
